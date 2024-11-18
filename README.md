@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I'm a **Computer Science student** currently in my
 ## 🚀 My Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript, React, Next.js, Tailwind CSS , Bootstrap
-- **Backend**: Node.js, Express.js, Axios ,CORS , Auth.js , Redux Toolkit , Mongoose , C , C++ , Python.
+- **Backend**: Node.js, Express.js, Axios ,CORS , Auth.js ,JWT, Redux Toolkit , Mongoose , C , C++ , Python.
 - **Database**: MongoDB
 - **Version Control**: Git, GitHub
 - **Tools**: WSL, VS Code, Figma
@@ -17,7 +17,7 @@ Welcome to my GitHub profile! I'm a **Computer Science student** currently in my
 ## 🌱 What I'm Learning
 - **MERN Stack**: Actively implementing real-world projects to strengthen my skills in full-stack development using **MongoDB**, **Express.js**, **React**, and **Node.js**.
 - **Data Structures and Algorithms (DSA)**: Sharpening my problem-solving skills by learning and practicing DSA in **C++**.
-- Exploring **UI/UX design** and **Figma** for better user experiences, aiming to build more visually appealing and intuitive applications.
+
 
 
 ---
