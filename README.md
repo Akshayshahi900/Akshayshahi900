@@ -13,6 +13,7 @@
 ## 🚀 Tech Stack
 
 <p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white" />
@@ -27,6 +28,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" />
 </p>
 
 <p align="center">
@@ -36,6 +38,7 @@
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
   <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
   <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bcrypt-4A90E2?style=for-the-badge&logo=nodejs&logoColor=white" />
 </p>
 
 <p align="center">
@@ -44,6 +47,7 @@
   <img src="https://img.shields.io/badge/RESTful_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
 <p align="center">
@@ -55,11 +59,11 @@
 
 ### 🛠️ Detailed Skills
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Tailwind CSS, Bootstrap
-- **Backend**: Node.js, Express.js, RESTful APIs, JWT Authentication, Auth.js, CORS, Mongoose ODM
-- **Database**: MongoDB
-- **Libraries & Tools**: Axios, Redux Toolkit, Figma
-- **Programming Languages**: C, C++, Python, JavaScript
+- **Languages**: TypeScript, JavaScript (ES6+), C, C++, Python
+- **Frontend**: HTML5, CSS3, React.js, Next.js, Tailwind CSS, Material-UI, Bootstrap
+- **Backend**: Node.js, Express.js, RESTful APIs, JWT Authentication, Auth.js, CORS, Bcrypt
+- **Database**: MongoDB, Mongoose ODM
+- **Libraries & Tools**: Axios, Redux Toolkit, Figma, Postman
 - **Development Tools**: Git, GitHub, VS Code, WSL (Windows Subsystem for Linux)
 - **Version Control**: Git workflows, collaborative development
 
