@@ -1,11 +1,11 @@
 # Hi there 👋, I'm Akshay!
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=F78C6C&width=500&center=true&lines=Hi+there,+I'm+Akshay!+%F0%9F%91%8B;Computer+Science+Student;Full+Stack+Developer;Problem+Solver" alt="Animated Name" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=F78C6C&width=600&center=true&lines=Hi+there,+I'm+Akshay!+%F0%9F%91%8B;Computer+Science+Student;Full+Stack+Developer;Problem+Solver" alt="Animated Name" />
 </div>
 
 <p align="center">
-  Welcome to my GitHub profile! I'm a <strong>Computer Science student</strong> currently in my 3rd semester pursuing <strong>B.Tech</strong>. I'm passionate about <strong>web development</strong>, mastering the <strong>MERN stack</strong>, and diving into <strong>Data Structures and Algorithms (DSA)</strong>. I love building projects that solve real-world problems and constantly challenge myself to learn new technologies.
+  Welcome to my GitHub profile! I'm a <strong>Computer Science student</strong> currently in my 5th semester pursuing <strong>B.Tech</strong>. I'm passionate about <strong>web technologies</strong> and diving into <strong>Data Structures and Algorithms (DSA)</strong>. I love building projects that solve real-world problems and constantly challenge myself to learn new technologies.
 </p>
 
 ---
@@ -57,18 +57,6 @@
   <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
 </p>
 
-### 🛠️ Detailed Skills
-
-- **Languages**: TypeScript, JavaScript (ES6+), C, C++, Python
-- **Frontend**: HTML5, CSS3, React.js, Next.js, Tailwind CSS, Material-UI, Bootstrap
-- **Backend**: Node.js, Express.js, RESTful APIs, JWT Authentication, Auth.js, CORS, Bcrypt
-- **Database**: MongoDB, Mongoose ODM
-- **Libraries & Tools**: Axios, Redux Toolkit, Figma, Postman
-- **Development Tools**: Git, GitHub, VS Code, WSL (Windows Subsystem for Linux)
-- **Version Control**: Git workflows, collaborative development
-
----
-
 ## 🌱 Currently Learning
 
 - **MERN Stack Development**: Building full-stack applications with MongoDB, Express.js, React, and Node.js
@@ -77,6 +65,22 @@
 - **Backend Architecture**: RESTful API design, authentication, and database optimization
 
 ---
+
+## 💡 Future Goals
+
+- 🔥 Contribute to open-source projects and give back to the developer community
+- 🏆 Participate in hackathons, coding competitions, and technical quizzes
+- 🚀 Build scalable full-stack applications that solve real-world problems
+- 📚 Master advanced technologies:
+  - **TypeScript** for better code quality and development experience
+  - **WebRTC** for real-time communication applications
+  - **Socket.io** for real-time web applications
+  - **Docker & Kubernetes** for containerization and orchestration
+  - **AWS/Azure** for cloud computing and deployment
+- 🎯 Explore modern web development patterns and best practices
+
+---
+
 
 ## 📈 GitHub Statistics
 
@@ -100,20 +104,6 @@
 
 ---
 
-## 💡 Future Goals
-
-- 🔥 Contribute to open-source projects and give back to the developer community
-- 🏆 Participate in hackathons, coding competitions, and technical quizzes
-- 🚀 Build scalable full-stack applications that solve real-world problems
-- 📚 Master advanced technologies:
-  - **TypeScript** for better code quality and development experience
-  - **WebRTC** for real-time communication applications
-  - **Socket.io** for real-time web applications
-  - **Docker & Kubernetes** for containerization and orchestration
-  - **AWS/Azure** for cloud computing and deployment
-- 🎯 Explore modern web development patterns and best practices
-
----
 
 ## 🤝 Let's Connect!
 
