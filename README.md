@@ -33,18 +33,34 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Auth.js-EB5424?style=for-the-badge&logo=auth0&logoColor=white" />
+  <img src="https://img.shields.io/badge/CORS-FF6B6B?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/RESTful_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/WSL-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
 </p>
 
 ### 🛠️ Detailed Skills
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Tailwind CSS, Bootstrap
-- **Backend**: Node.js, Express.js, RESTful APIs, JWT Authentication, Auth.js
-- **Database**: MongoDB, Mongoose ODM
-- **Libraries & Tools**: Axios, CORS, Redux Toolkit, Figma
+- **Backend**: Node.js, Express.js, RESTful APIs, JWT Authentication, Auth.js, CORS, Mongoose ODM
+- **Database**: MongoDB
+- **Libraries & Tools**: Axios, Redux Toolkit, Figma
 - **Programming Languages**: C, C++, Python, JavaScript
-- **Development Tools**: Git, GitHub, VS Code, WSL
+- **Development Tools**: Git, GitHub, VS Code, WSL (Windows Subsystem for Linux)
 - **Version Control**: Git workflows, collaborative development
 
 ---
