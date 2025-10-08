@@ -27,6 +27,7 @@
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" />
 </p>
@@ -63,6 +64,7 @@
 - **Data Structures & Algorithms**: Solving complex problems and improving algorithmic thinking using C++
 - **Advanced React Concepts**: Hooks, Context API, performance optimization
 - **Backend Architecture**: RESTful API design, authentication, and database optimization
+- **Real-time Communication**: Building interactive applications with Socket.io and WebRTC
 
 ---
 
@@ -81,6 +83,19 @@
 
 ---
 
+## 💻 LeetCode Stats
+
+<div align="center">
+  <a href="https://leetcode.com/u/shahiakshay900/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/shahiakshay900?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode Stats"/>
+</div>
+
+---
 
 ## 📈 GitHub Statistics
 
@@ -104,12 +119,14 @@
 
 ---
 
-
 ## 🤝 Let's Connect!
 
 <div align="center">
   <a href="https://www.linkedin.com/in/akshay-shahi-5815602a7" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://leetcode.com/u/shahiakshay900/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
   </a>
   <a href="mailto:akshayofficial070@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
@@ -117,6 +134,7 @@
 </div>
 
 - 💼 **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/akshay-shahi-5815602a7)
+- 💻 **LeetCode**: [Check out my problem-solving journey](https://leetcode.com/u/shahiakshay900/)
 - 📧 **Email**: akshayofficial070@gmail.com
 - 💬 Always open to interesting conversations about technology, projects, and collaboration opportunities!
 
