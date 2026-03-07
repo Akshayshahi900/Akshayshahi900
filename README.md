@@ -58,64 +58,14 @@
   <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
 </p>
 
-## 🌱 Currently Learning
-
-- **MERN Stack Development**: Building full-stack applications with MongoDB, Express.js, React, and Node.js
-- **Data Structures & Algorithms**: Solving complex problems and improving algorithmic thinking using C++
-- **Advanced React Concepts**: Hooks, Context API, performance optimization
-- **Backend Architecture**: RESTful API design, authentication, and database optimization
-- **Real-time Communication**: Building interactive applications with Socket.io and WebRTC
-
----
-
-## 💡 Future Goals
-
-- 🔥 Contribute to open-source projects and give back to the developer community
-- 🏆 Participate in hackathons, coding competitions, and technical quizzes
-- 🚀 Build scalable full-stack applications that solve real-world problems
-- 📚 Master advanced technologies:
-  - **TypeScript** for better code quality and development experience
-  - **WebRTC** for real-time communication applications
-  - **Socket.io** for real-time web applications
-  - **Docker & Kubernetes** for containerization and orchestration
-  - **AWS/Azure** for cloud computing and deployment
-- 🎯 Explore modern web development patterns and best practices
-
----
-
-## 💻 LeetCode Stats
-
-<div align="center">
-  <a href="https://leetcode.com/u/shahiakshay900/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile"/>
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://leetcard.jacoblin.cool/shahiakshay900?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode Stats"/>
-</div>
-
----
 
 ## 📈 GitHub Statistics
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akshayshahi900&theme=radical" alt="Profile Details"/>
-</div>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Akshayshahi900&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Akshayshahi900&theme=radical" alt="GitHub Streak"/>
 </p>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akshayshahi900&theme=radical" alt="Repos per language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Akshayshahi900&theme=radical" alt="Most commit language"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshayshahi900&bg_color=1A1B27&color=F78C6C&line=F78C6C&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph"/>
-</div>
 
 ---
 
@@ -135,16 +85,4 @@
 
 - 💼 **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/akshay-shahi-5815602a7)
 - 💻 **LeetCode**: [Check out my problem-solving journey](https://leetcode.com/u/shahiakshay900/)
-- 📧 **Email**: akshayofficial070@gmail.com
-- 💬 Always open to interesting conversations about technology, projects, and collaboration opportunities!
-
 ---
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Akshayshahi900&label=Profile%20Views&color=F78C6C&style=for-the-badge" alt="Profile Views"/>
-</div>
-
-<div align="center">
-  <h3>💫 "Code is like humor. When you have to explain it, it's bad." – Cory House</h3>
-  <p><em>Thanks for visiting my profile! Feel free to explore my repositories and don't hesitate to reach out for collaborations or just a friendly chat about tech! 🚀</em></p>
-</div>
