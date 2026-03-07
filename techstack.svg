@@ -1,0 +1,425 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 2000" width="800" height="2000">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020814"/>
+      <stop offset="100%" stop-color="#071428"/>
+    </linearGradient>
+    <linearGradient id="gnd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111c11"/>
+      <stop offset="100%" stop-color="#060e06"/>
+    </linearGradient>
+    <linearGradient id="fAI" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#130328"/><stop offset="50%" stop-color="#220840"/><stop offset="100%" stop-color="#130328"/>
+    </linearGradient>
+    <linearGradient id="fDO" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00152b"/><stop offset="50%" stop-color="#002244"/><stop offset="100%" stop-color="#00152b"/>
+    </linearGradient>
+    <linearGradient id="fDB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#001a16"/><stop offset="50%" stop-color="#002b24"/><stop offset="100%" stop-color="#001a16"/>
+    </linearGradient>
+    <linearGradient id="fBE" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#181600"/><stop offset="50%" stop-color="#282400"/><stop offset="100%" stop-color="#181600"/>
+    </linearGradient>
+    <linearGradient id="fFE" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#001222"/><stop offset="50%" stop-color="#001f38"/><stop offset="100%" stop-color="#001222"/>
+    </linearGradient>
+    <linearGradient id="fLG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#160800"/><stop offset="50%" stop-color="#261400"/><stop offset="100%" stop-color="#160800"/>
+    </linearGradient>
+    <linearGradient id="fCS" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#080e18"/><stop offset="50%" stop-color="#0d1828"/><stop offset="100%" stop-color="#080e18"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="sg"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="wg"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="800" height="2000" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="white" opacity="0.7">
+    <circle cx="40" cy="35" r="1"/><circle cx="110" cy="12" r="0.8"/><circle cx="190" cy="58" r="1.1"/>
+    <circle cx="290" cy="22" r="1.2"/><circle cx="420" cy="8"  r="0.7"/><circle cx="520" cy="44" r="1"/>
+    <circle cx="620" cy="18" r="0.9"/><circle cx="710" cy="60" r="1.1"/><circle cx="770" cy="30" r="1"/>
+    <circle cx="60"  cy="110" r="0.8"/><circle cx="740" cy="100" r="0.9"/><circle cx="350" cy="15" r="1"/>
+    <circle cx="670" cy="135" r="0.8"/><circle cx="25"  cy="185" r="0.7"/><circle cx="780" cy="165" r="0.9"/>
+  </g>
+  <!-- Moon -->
+  <circle cx="720" cy="72" r="24" fill="#fffde7" opacity="0.10" filter="url(#sg)"/>
+  <circle cx="720" cy="72" r="18" fill="#fffde7" opacity="0.13"/>
+
+  <!-- ═══ SPIRE ═══ -->
+  <line x1="400" y1="118" x2="400" y2="232" stroke="#7a9ec0" stroke-width="2.2"/>
+  <line x1="383" y1="162" x2="417" y2="162" stroke="#7a9ec0" stroke-width="1.4"/>
+  <line x1="376" y1="192" x2="424" y2="192" stroke="#7a9ec0" stroke-width="1.4"/>
+  <circle cx="400" cy="118" r="4" fill="#ff3355" filter="url(#glow)"/>
+  <circle cx="400" cy="118" r="9" fill="#ff3355" opacity="0.15" filter="url(#sg)"/>
+
+  <!-- ═══ ROOFTOP ═══ -->
+  <polygon points="316,232 484,232 458,265 342,265" fill="#0b1c35" stroke="#243d5a" stroke-width="1"/>
+  <rect x="342" y="265" width="116" height="18" fill="#0b1c35" stroke="#243d5a" stroke-width="1"/>
+
+  <!-- ══════════════════════════════════════════
+       FLOOR 7 — GENERATIVE AI  width=260 x=270
+  ══════════════════════════════════════════ -->
+  <rect x="270" y="283" width="260" height="228" rx="2" fill="url(#fAI)" stroke="#6d28d9" stroke-width="1.4"/>
+  <rect x="270" y="283" width="260" height="3"   fill="#6d28d9" opacity="0.8" filter="url(#glow)"/>
+  <!-- windows -->
+  <rect x="288" y="298" width="14" height="9" rx="1" fill="#a78bfa" opacity="0.45" filter="url(#wg)"/>
+  <rect x="310" y="298" width="14" height="9" rx="1" fill="#a78bfa" opacity="0.45" filter="url(#wg)"/>
+  <rect x="476" y="298" width="14" height="9" rx="1" fill="#a78bfa" opacity="0.45" filter="url(#wg)"/>
+  <rect x="498" y="298" width="14" height="9" rx="1" fill="#a78bfa" opacity="0.45" filter="url(#wg)"/>
+  <!-- label -->
+  <text x="400" y="322" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#a78bfa" letter-spacing="3.5" font-weight="700">GENERATIVE AI</text>
+
+  <!-- row 1: LangChain | LangGraph -->
+  <!-- LangChain -->
+  <rect x="284" y="330" width="26" height="26" rx="4" fill="#1C3C3C"/>
+  <text x="297" y="347" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#00e676" font-weight="700">L</text>
+  <text x="315" y="347" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">LangChain</text>
+  <!-- LangGraph -->
+  <rect x="420" y="330" width="26" height="26" rx="4" fill="#1C3C3C"/>
+  <text x="433" y="347" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#00b8d4" font-weight="700">G</text>
+  <text x="451" y="347" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">LangGraph</text>
+
+  <!-- row 2: OpenAI | Gemini -->
+  <!-- OpenAI -->
+  <rect x="284" y="366" width="26" height="26" rx="4" fill="#111"/>
+  <!-- OpenAI gear-like shape -->
+  <circle cx="297" cy="379" r="6" fill="none" stroke="white" stroke-width="1.4"/>
+  <circle cx="297" cy="379" r="2.5" fill="white"/>
+  <text x="315" y="383" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">OpenAI API</text>
+  <!-- Gemini -->
+  <rect x="420" y="366" width="26" height="26" rx="4" fill="#1a73e8"/>
+  <!-- Gemini star shape -->
+  <polygon points="433,370 435,377 433,384 431,377" fill="white" opacity="0.9"/>
+  <polygon points="427,376 434,374 441,376 434,378" fill="white" opacity="0.9"/>
+  <text x="451" y="383" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Gemini API</text>
+
+  <!-- row 3: HuggingFace | Ollama -->
+  <!-- HuggingFace -->
+  <rect x="284" y="402" width="26" height="26" rx="4" fill="#ff9500"/>
+  <text x="297" y="419" text-anchor="middle" font-family="serif" font-size="15" fill="white">◉</text>
+  <text x="315" y="419" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Hugging Face</text>
+  <!-- Ollama -->
+  <rect x="420" y="402" width="26" height="26" rx="4" fill="#e8e8e8"/>
+  <circle cx="433" cy="415" r="6" fill="none" stroke="#333" stroke-width="1.5"/>
+  <circle cx="433" cy="415" r="2.5" fill="#333"/>
+  <text x="451" y="419" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Ollama</text>
+
+  <!-- row 4 mini text -->
+  <text x="284" y="450" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed" opacity="0.9">RAG Pipelines · Prompt Engineering · Vector DBs</text>
+
+  <!-- side label -->
+  <text x="263" y="405" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#6d28d9" opacity="0.75" transform="rotate(-90 263 405)">GEN AI</text>
+
+
+  <!-- ══════════════════════════════════════════
+       FLOOR 6 — DEVOPS  width=320 x=240
+  ══════════════════════════════════════════ -->
+  <rect x="240" y="514" width="320" height="200" rx="2" fill="url(#fDO)" stroke="#0284c7" stroke-width="1.4"/>
+  <rect x="240" y="514" width="320" height="3"   fill="#0284c7" opacity="0.8" filter="url(#glow)"/>
+  <rect x="256" y="528" width="13" height="8" rx="1" fill="#38bdf8" opacity="0.4" filter="url(#wg)"/>
+  <rect x="276" y="528" width="13" height="8" rx="1" fill="#38bdf8" opacity="0.4" filter="url(#wg)"/>
+  <rect x="511" y="528" width="13" height="8" rx="1" fill="#38bdf8" opacity="0.4" filter="url(#wg)"/>
+  <rect x="531" y="528" width="13" height="8" rx="1" fill="#38bdf8" opacity="0.4" filter="url(#wg)"/>
+  <text x="400" y="548" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#38bdf8" letter-spacing="3.5" font-weight="700">DEVOPS &amp; DEPLOYMENT</text>
+
+  <!-- Docker -->
+  <rect x="256" y="557" width="26" height="26" rx="4" fill="#0db7ed"/>
+  <!-- Docker whale simplified -->
+  <rect x="261" y="563" width="5" height="3" rx="1" fill="white"/>
+  <rect x="268" y="561" width="5" height="3" rx="1" fill="white"/>
+  <rect x="275" y="563" width="5" height="3" rx="1" fill="white"/>
+  <rect x="261" y="567" width="19" height="4" rx="1" fill="white"/>
+  <text x="287" y="573" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Docker</text>
+
+  <!-- Linux -->
+  <rect x="380" y="557" width="26" height="26" rx="4" fill="#2b2b2b"/>
+  <!-- Penguin simplified -->
+  <ellipse cx="393" cy="566" rx="5" ry="6" fill="#f5f5f5"/>
+  <ellipse cx="393" cy="563" rx="3" ry="3" fill="#222"/>
+  <circle cx="391" cy="562" r="1" fill="white"/><circle cx="395" cy="562" r="1" fill="white"/>
+  <ellipse cx="391" cy="569" rx="1.5" ry="2.5" fill="#f5a623"/>
+  <ellipse cx="395" cy="569" rx="1.5" ry="2.5" fill="#f5a623"/>
+  <text x="411" y="573" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Linux</text>
+
+  <!-- Vercel -->
+  <rect x="256" y="593" width="26" height="26" rx="4" fill="#000"/>
+  <polygon points="269,597 279,613 259,613" fill="white"/>
+  <text x="287" y="609" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Vercel</text>
+
+  <!-- Render -->
+  <rect x="380" y="593" width="26" height="26" rx="4" fill="#46E3B7"/>
+  <text x="393" y="610" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#000" font-weight="800">R</text>
+  <text x="411" y="609" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Render</text>
+
+  <!-- Railway -->
+  <rect x="256" y="629" width="26" height="26" rx="4" fill="#131313"/>
+  <!-- track shape -->
+  <line x1="263" y1="636" x2="263" y2="649" stroke="white" stroke-width="1.5"/>
+  <line x1="276" y1="636" x2="276" y2="649" stroke="white" stroke-width="1.5"/>
+  <line x1="261" y1="640" x2="278" y2="640" stroke="white" stroke-width="1.2"/>
+  <line x1="261" y1="645" x2="278" y2="645" stroke="white" stroke-width="1.2"/>
+  <text x="287" y="645" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Railway</text>
+
+  <!-- Git -->
+  <rect x="380" y="629" width="26" height="26" rx="4" fill="#F05032"/>
+  <!-- git branch icon -->
+  <circle cx="388" cy="636" r="2.5" fill="white"/>
+  <circle cx="400" cy="649" r="2.5" fill="white"/>
+  <circle cx="400" cy="636" r="2.5" fill="white"/>
+  <line x1="388" y1="638.5" x2="388" y2="643" stroke="white" stroke-width="1.2"/>
+  <line x1="390" y1="636" x2="397.5" y2="636" stroke="white" stroke-width="1.2"/>
+  <line x1="400" y1="638.5" x2="400" y2="646.5" stroke="white" stroke-width="1.2"/>
+  <text x="411" y="645" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Git · GitHub</text>
+
+  <text x="256" y="727" font-family="'Courier New',monospace" font-size="8.5" fill="#0ea5e9" opacity="0.8">WSL · Postman · Figma · VS Code</text>
+
+  <text x="233" y="617" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#0284c7" opacity="0.75" transform="rotate(-90 233 617)">DEVOPS</text>
+
+
+  <!-- ══════════════════════════════════════════
+       FLOOR 5 — DATABASES  width=380 x=210
+  ══════════════════════════════════════════ -->
+  <rect x="210" y="717" width="380" height="196" rx="2" fill="url(#fDB)" stroke="#059669" stroke-width="1.4"/>
+  <rect x="210" y="717" width="380" height="3"   fill="#059669" opacity="0.8" filter="url(#glow)"/>
+  <rect x="226" y="730" width="13" height="8" rx="1" fill="#34d399" opacity="0.4" filter="url(#wg)"/>
+  <rect x="246" y="730" width="13" height="8" rx="1" fill="#34d399" opacity="0.4" filter="url(#wg)"/>
+  <rect x="541" y="730" width="13" height="8" rx="1" fill="#34d399" opacity="0.4" filter="url(#wg)"/>
+  <rect x="561" y="730" width="13" height="8" rx="1" fill="#34d399" opacity="0.4" filter="url(#wg)"/>
+  <text x="400" y="750" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#34d399" letter-spacing="3.5" font-weight="700">DATABASES &amp; ORM</text>
+
+  <!-- PostgreSQL -->
+  <rect x="226" y="759" width="26" height="26" rx="4" fill="#336791"/>
+  <!-- pg elephant ear simplified -->
+  <ellipse cx="239" cy="769" rx="6" ry="5" fill="none" stroke="white" stroke-width="1.3"/>
+  <line x1="233" y1="769" x2="233" y2="780" stroke="white" stroke-width="1.3"/>
+  <text x="257" y="775" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">PostgreSQL</text>
+
+  <!-- MongoDB -->
+  <rect x="400" y="759" width="26" height="26" rx="4" fill="#47A248"/>
+  <!-- leaf shape -->
+  <path d="M413,762 Q419,768 413,780 Q407,768 413,762Z" fill="white"/>
+  <text x="431" y="775" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">MongoDB</text>
+
+  <!-- Prisma -->
+  <rect x="226" y="796" width="26" height="26" rx="4" fill="#2D3748"/>
+  <!-- Prisma triangle -->
+  <polygon points="239,800 249,817 229,817" fill="none" stroke="#818cf8" stroke-width="1.4"/>
+  <line x1="239" y1="800" x2="239" y2="817" stroke="#818cf8" stroke-width="1"/>
+  <text x="257" y="812" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Prisma ORM</text>
+
+  <!-- Mongoose -->
+  <rect x="400" y="796" width="26" height="26" rx="4" fill="#800000"/>
+  <text x="413" y="813" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#e8b4b4" font-weight="700">m</text>
+  <text x="431" y="812" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Mongoose</text>
+
+  <text x="226" y="855" font-family="'Courier New',monospace" font-size="8.5" fill="#10b981" opacity="0.85">REST APIs · Socket.io · JWT · Bcrypt · Axios · CORS</text>
+
+  <text x="203" y="818" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#059669" opacity="0.75" transform="rotate(-90 203 818)">DATABASE</text>
+
+
+  <!-- ══════════════════════════════════════════
+       FLOOR 4 — BACKEND  width=440 x=180
+  ══════════════════════════════════════════ -->
+  <rect x="180" y="916" width="440" height="210" rx="2" fill="url(#fBE)" stroke="#ca8a04" stroke-width="1.4"/>
+  <rect x="180" y="916" width="440" height="3"   fill="#ca8a04" opacity="0.8" filter="url(#glow)"/>
+  <rect x="196" y="929" width="13" height="8" rx="1" fill="#fde047" opacity="0.4" filter="url(#wg)"/>
+  <rect x="216" y="929" width="13" height="8" rx="1" fill="#fde047" opacity="0.4" filter="url(#wg)"/>
+  <rect x="571" y="929" width="13" height="8" rx="1" fill="#fde047" opacity="0.4" filter="url(#wg)"/>
+  <rect x="591" y="929" width="13" height="8" rx="1" fill="#fde047" opacity="0.4" filter="url(#wg)"/>
+  <text x="400" y="949" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#fde047" letter-spacing="3.5" font-weight="700">BACKEND</text>
+
+  <!-- Node.js -->
+  <rect x="196" y="958" width="26" height="26" rx="4" fill="#215732"/>
+  <!-- node hexagon -->
+  <polygon points="209,961 216,965 216,973 209,977 202,973 202,965" fill="none" stroke="#68d391" stroke-width="1.4"/>
+  <text x="227" y="974" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Node.js</text>
+
+  <!-- Express -->
+  <rect x="340" y="958" width="26" height="26" rx="4" fill="#1a1a1a"/>
+  <text x="353" y="975" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#e5e5e5" font-weight="700">Ex</text>
+  <text x="371" y="974" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Express.js</text>
+
+  <!-- Next.js API -->
+  <rect x="490" y="958" width="26" height="26" rx="4" fill="#000"/>
+  <polygon points="503,962 513,978 493,978" fill="white"/>
+  <text x="521" y="974" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Next API</text>
+
+  <!-- Clerk -->
+  <rect x="196" y="995" width="26" height="26" rx="4" fill="#6C47FF"/>
+  <text x="209" y="1012" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white" font-weight="700">Ck</text>
+  <text x="227" y="1011" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Clerk</text>
+
+  <!-- NextAuth -->
+  <rect x="340" y="995" width="26" height="26" rx="4" fill="#222"/>
+  <text x="353" y="1012" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="white" font-weight="700">NA</text>
+  <text x="371" y="1011" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">NextAuth.js</text>
+
+  <!-- Cloudinary -->
+  <rect x="490" y="995" width="26" height="26" rx="4" fill="#3448C5"/>
+  <!-- cloud shape -->
+  <ellipse cx="500" cy="1008" rx="5" ry="4" fill="white"/>
+  <ellipse cx="506" cy="1009" rx="5" ry="4" fill="white"/>
+  <ellipse cx="503" cy="1012" rx="6" ry="3" fill="white"/>
+  <text x="521" y="1011" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Cloudinary</text>
+
+  <text x="196" y="1060" font-family="'Courier New',monospace" font-size="8.5" fill="#eab308" opacity="0.85">Socket.io · JWT · Bcrypt · Axios · Middleware · MVC</text>
+
+  <text x="173" y="1025" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#ca8a04" opacity="0.75" transform="rotate(-90 173 1025)">BACKEND</text>
+
+
+  <!-- ══════════════════════════════════════════
+       FLOOR 3 — FRONTEND  width=500 x=150
+  ══════════════════════════════════════════ -->
+  <rect x="150" y="1129" width="500" height="216" rx="2" fill="url(#fFE)" stroke="#2563eb" stroke-width="1.4"/>
+  <rect x="150" y="1129" width="500" height="3"   fill="#2563eb" opacity="0.8" filter="url(#glow)"/>
+  <rect x="166" y="1142" width="13" height="8" rx="1" fill="#60a5fa" opacity="0.4" filter="url(#wg)"/>
+  <rect x="186" y="1142" width="13" height="8" rx="1" fill="#60a5fa" opacity="0.4" filter="url(#wg)"/>
+  <rect x="601" y="1142" width="13" height="8" rx="1" fill="#60a5fa" opacity="0.4" filter="url(#wg)"/>
+  <rect x="621" y="1142" width="13" height="8" rx="1" fill="#60a5fa" opacity="0.4" filter="url(#wg)"/>
+  <text x="400" y="1162" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#60a5fa" letter-spacing="3.5" font-weight="700">FRONTEND</text>
+
+  <!-- React -->
+  <rect x="166" y="1171" width="26" height="26" rx="4" fill="#20232a"/>
+  <circle cx="179" cy="1184" r="3" fill="#61DAFB"/>
+  <ellipse cx="179" cy="1184" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1"/>
+  <ellipse cx="179" cy="1184" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(60 179 1184)"/>
+  <ellipse cx="179" cy="1184" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(120 179 1184)"/>
+  <text x="197" y="1187" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">React.js</text>
+
+  <!-- Next.js -->
+  <rect x="310" y="1171" width="26" height="26" rx="4" fill="#000"/>
+  <polygon points="323,1175 333,1191 313,1191" fill="white"/>
+  <text x="341" y="1187" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Next.js</text>
+
+  <!-- Tailwind -->
+  <rect x="460" y="1171" width="26" height="26" rx="4" fill="#0c4a6e"/>
+  <!-- tailwind wave paths -->
+  <path d="M466,1181 Q469,1177 472,1181 Q475,1185 478,1181" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <path d="M469,1186 Q472,1182 475,1186 Q478,1190 481,1186" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="491" y="1187" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Tailwind CSS</text>
+
+  <!-- MUI -->
+  <rect x="166" y="1208" width="26" height="26" rx="4" fill="#0a5a8a"/>
+  <!-- M shape -->
+  <path d="M172,1229 L172,1213 L179,1222 L186,1213 L186,1229" fill="none" stroke="white" stroke-width="1.4"/>
+  <text x="197" y="1224" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Material UI</text>
+
+  <!-- Redux -->
+  <rect x="310" y="1208" width="26" height="26" rx="4" fill="#5c2d91"/>
+  <!-- redux circle-arrow -->
+  <circle cx="323" cy="1221" r="6" fill="none" stroke="#c4b5fd" stroke-width="1.4"/>
+  <path d="M323,1215 L326,1218 L320,1218Z" fill="#c4b5fd"/>
+  <text x="341" y="1224" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Redux Toolkit</text>
+
+  <!-- Zustand -->
+  <rect x="460" y="1208" width="26" height="26" rx="4" fill="#111827"/>
+  <text x="473" y="1225" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#f59e0b" font-weight="800">Z</text>
+  <text x="491" y="1224" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Zustand</text>
+
+  <text x="166" y="1282" font-family="'Courier New',monospace" font-size="8.5" fill="#3b82f6" opacity="0.85">HTML5 · CSS3 · Bootstrap · Responsive Design · Figma</text>
+
+  <text x="143" y="1240" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#2563eb" opacity="0.75" transform="rotate(-90 143 1240)">FRONTEND</text>
+
+
+  <!-- ══════════════════════════════════════════
+       FLOOR 2 — LANGUAGES  width=580 x=110
+  ══════════════════════════════════════════ -->
+  <rect x="110" y="1348" width="580" height="215" rx="2" fill="url(#fLG)" stroke="#ea580c" stroke-width="1.4"/>
+  <rect x="110" y="1348" width="580" height="3"   fill="#ea580c" opacity="0.8" filter="url(#glow)"/>
+  <rect x="126" y="1361" width="13" height="8" rx="1" fill="#fb923c" opacity="0.4" filter="url(#wg)"/>
+  <rect x="146" y="1361" width="13" height="8" rx="1" fill="#fb923c" opacity="0.4" filter="url(#wg)"/>
+  <rect x="641" y="1361" width="13" height="8" rx="1" fill="#fb923c" opacity="0.4" filter="url(#wg)"/>
+  <rect x="661" y="1361" width="13" height="8" rx="1" fill="#fb923c" opacity="0.4" filter="url(#wg)"/>
+  <text x="400" y="1381" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#fb923c" letter-spacing="3.5" font-weight="700">LANGUAGES</text>
+
+  <!-- TypeScript -->
+  <rect x="126" y="1390" width="26" height="26" rx="4" fill="#3178C6"/>
+  <text x="139" y="1407" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="white" font-weight="800">TS</text>
+  <text x="157" y="1406" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">TypeScript</text>
+
+  <!-- JavaScript -->
+  <rect x="280" y="1390" width="26" height="26" rx="4" fill="#F7DF1E"/>
+  <text x="293" y="1407" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#111" font-weight="800">JS</text>
+  <text x="311" y="1406" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">JavaScript ES6+</text>
+
+  <!-- Python -->
+  <rect x="480" y="1390" width="26" height="26" rx="4" fill="#3776AB"/>
+  <!-- Python logo simplified - two circles joined -->
+  <ellipse cx="491" cy="1400" rx="4" ry="4.5" fill="#FFD43B"/>
+  <ellipse cx="497" cy="1406" rx="4" ry="4.5" fill="#3776AB" stroke="#FFD43B" stroke-width="0.5"/>
+  <text x="511" y="1406" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">Python</text>
+
+  <!-- C++ -->
+  <rect x="126" y="1427" width="26" height="26" rx="4" fill="#00599C"/>
+  <text x="139" y="1444" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white" font-weight="800">C++</text>
+  <text x="157" y="1443" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">C++</text>
+
+  <!-- C -->
+  <rect x="280" y="1427" width="26" height="26" rx="4" fill="#5c6bc0"/>
+  <text x="293" y="1444" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="white" font-weight="800">C</text>
+  <text x="311" y="1443" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">C Language</text>
+
+  <!-- DSA badge -->
+  <rect x="480" y="1427" width="26" height="26" rx="4" fill="#FFA116"/>
+  <text x="493" y="1444" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="white" font-weight="800">LC</text>
+  <text x="511" y="1443" font-family="'Courier New',monospace" font-size="9.5" fill="#dde6f0" font-weight="600">LeetCode DSA</text>
+
+  <text x="126" y="1498" font-family="'Courier New',monospace" font-size="8.5" fill="#f97316" opacity="0.85">OOP · Data Structures · Algorithms · System Design</text>
+
+  <text x="103" y="1458" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#ea580c" opacity="0.75" transform="rotate(-90 103 1458)">LANGUAGES</text>
+
+
+  <!-- ══════════════════════════════════════════
+       FLOOR 1 — CS FOUNDATION  width=660 x=70
+  ══════════════════════════════════════════ -->
+  <rect x="70" y="1566" width="660" height="148" rx="2" fill="url(#fCS)" stroke="#475569" stroke-width="1.4"/>
+  <rect x="70" y="1566" width="660" height="3"   fill="#64748b" opacity="0.8" filter="url(#glow)"/>
+  <rect x="86" y="1578" width="12" height="8" rx="1" fill="#94a3b8" opacity="0.3"/>
+  <rect x="104" y="1578" width="12" height="8" rx="1" fill="#94a3b8" opacity="0.3"/>
+  <rect x="684" y="1578" width="12" height="8" rx="1" fill="#94a3b8" opacity="0.3"/>
+  <rect x="702" y="1578" width="12" height="8" rx="1" fill="#94a3b8" opacity="0.3"/>
+
+  <text x="400" y="1598" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#94a3b8" letter-spacing="4" font-weight="700">FOUNDATION · COMPUTER SCIENCE</text>
+  <text x="400" y="1621" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#cbd5e1">Operating Systems · Computer Networks · DBMS · OOP</text>
+  <text x="400" y="1642" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#94a3b8">Discrete Mathematics · Computer Architecture · Algorithms</text>
+  <text x="400" y="1662" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#64748b">B.Tech Computer Science · 6th Semester</text>
+  <text x="400" y="1680" text-anchor="middle" font-family="'Courier New',monospace" font-size="8.5" fill="#475569">Linux · Git · GitHub · Postman · Figma · VS Code · WSL</text>
+
+  <text x="63" y="1640" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#475569" opacity="0.75" transform="rotate(-90 63 1640)">CS CORE</text>
+
+  <!-- ═══ GROUND ═══ -->
+  <rect x="0" y="1714" width="800" height="36" fill="url(#gnd)"/>
+  <rect x="70" y="1714" width="660" height="3" fill="#475569" opacity="0.5" filter="url(#glow)"/>
+  <!-- road lines -->
+  <line x1="160" y1="1730" x2="260" y2="1730" stroke="#1a2510" stroke-width="1.8" stroke-dasharray="12,8"/>
+  <line x1="540" y1="1730" x2="640" y2="1730" stroke="#1a2510" stroke-width="1.8" stroke-dasharray="12,8"/>
+
+  <!-- ═══ TITLE BLOCK ═══ -->
+  <text x="400" y="1800" text-anchor="middle" font-family="'Courier New',monospace" font-size="19" fill="#e2e8f0" font-weight="700" letter-spacing="3">AKSHAY SHAHI</text>
+  <text x="400" y="1824" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#475569" letter-spacing="4">TECH STACK  ·  BUILT FLOOR BY FLOOR</text>
+  <line x1="240" y1="1836" x2="560" y2="1836" stroke="#1e293b" stroke-width="1"/>
+  <text x="400" y="1856" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#334155" letter-spacing="2">Full Stack Developer · GenAI Engineer · CS Undergrad</text>
+
+  <!-- legend -->
+  <g font-family="'Courier New',monospace" font-size="8.5" fill="#475569">
+    <rect x="155" y="1870" width="9" height="9" rx="2" fill="#6d28d9"/>
+    <text x="168" y="1879">Gen AI</text>
+    <rect x="225" y="1870" width="9" height="9" rx="2" fill="#0284c7"/>
+    <text x="238" y="1879">DevOps</text>
+    <rect x="305" y="1870" width="9" height="9" rx="2" fill="#059669"/>
+    <text x="318" y="1879">DB</text>
+    <rect x="350" y="1870" width="9" height="9" rx="2" fill="#ca8a04"/>
+    <text x="363" y="1879">Backend</text>
+    <rect x="428" y="1870" width="9" height="9" rx="2" fill="#2563eb"/>
+    <text x="441" y="1879">Frontend</text>
+    <rect x="510" y="1870" width="9" height="9" rx="2" fill="#ea580c"/>
+    <text x="523" y="1879">Languages</text>
+    <rect x="604" y="1870" width="9" height="9" rx="2" fill="#475569"/>
+    <text x="617" y="1879">CS Core</text>
+  </g>
+
+</svg>
