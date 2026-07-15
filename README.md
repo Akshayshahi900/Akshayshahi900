@@ -24,23 +24,129 @@ I build software from the operating system upwards — reverse proxies, in-memor
 
 ---
 
-### 🛠️ Tech Stack
+## 💻 Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,rust,ts,js,py,c" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,prisma,redis" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,redux" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,githubactions,linux,vercel,render" />
+<table>
+<tr>
+<td valign="top" width="33%">
+
+### 💻 Languages
+
+<p>
+<img src="https://img.shields.io/badge/C++-1f1f1f?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Rust-1f1f1f?style=for-the-badge&logo=rust&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-1f1f1f?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-1f1f1f?style=for-the-badge&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-1f1f1f?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-1f1f1f?style=for-the-badge&logo=c&logoColor=white"/>
 </p>
 
----
+</td>
 
+<td valign="top" width="33%">
+
+### ⚙️ Systems Programming
+
+<p>
+<img src="https://img.shields.io/badge/Linux-1f1f1f?style=for-the-badge&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/epoll-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/POSIX_Sockets-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/TCP/IP-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/HTTP/1.1-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Concurrency-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Multi--threading-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Event--Driven-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Thread_Pools-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Work_Stealing-1f1f1f?style=for-the-badge"/>
+</p>
+
+</td>
+
+<td valign="top" width="33%">
+
+### 🚀 Backend Engineering
+
+<p>
+<img src="https://img.shields.io/badge/Node.js-1f1f1f?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express.js-1f1f1f?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/REST_APIs-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/WebSockets-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Socket.IO-1f1f1f?style=for-the-badge&logo=socketdotio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prisma-1f1f1f?style=for-the-badge&logo=prisma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Mongoose-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/JWT-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OAuth_2.0-1f1f1f?style=for-the-badge"/>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+### 🗄️ Databases
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-1f1f1f?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-1f1f1f?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-1f1f1f?style=for-the-badge&logo=redis&logoColor=white"/>
+</p>
+
+</td>
+
+<td valign="top">
+
+### 🤖 AI / GenAI
+
+<p>
+<img src="https://img.shields.io/badge/LLM_Applications-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI_Agents-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Structured_Outputs-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Tool_Calling-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Information_Extraction-1f1f1f?style=for-the-badge"/>
+</p>
+
+</td>
+
+<td valign="top">
+
+### 🌐 Frontend
+
+<p>
+<img src="https://img.shields.io/badge/React-1f1f1f?style=for-the-badge&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Next.js-1f1f1f?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-1f1f1f?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1f1f1f?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-1f1f1f?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Zustand-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Redux_Toolkit-1f1f1f?style=for-the-badge&logo=redux&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Query-1f1f1f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/shadcn/ui-1f1f1f?style=for-the-badge"/>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td colspan="3">
+
+### ☁️ DevOps & Cloud
+
+<p>
+<img src="https://img.shields.io/badge/Docker-1f1f1f?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-1f1f1f?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-1f1f1f?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-1f1f1f?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-1f1f1f?style=for-the-badge&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-1f1f1f?style=for-the-badge&logo=render&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-1f1f1f?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloudinary-1f1f1f?style=for-the-badge&logo=cloudinary&logoColor=white"/>
+</p>
+
+</td>
+</tr>
+</table>
 ### 📌 Featured Projects
 
 | Project | Description | Link |
@@ -55,24 +161,9 @@ I build software from the operating system upwards — reverse proxies, in-memor
 ---
 
 ### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Akshayshahi900&show_icons=true&theme=tokyonight&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshayshahi900&layout=compact&theme=tokyonight" />
-</p>
-
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Akshayshahi900&theme=tokyonight" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshayshahi900&theme=tokyo-night" />
-</p>
-
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Akshayshahi900&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
-
----
-
-<p align="center"><i>"I like understanding systems from first principles and building them from scratch."</i></p>
