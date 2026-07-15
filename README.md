@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Akshay Shahi</h1>
-<h3 align="center">Backend • Systems • Infrastructure Engineer</h3>
+<h3 align="center">Fullstack • Backend Systems • Infrastructure </h3>
 
 <p align="center">
-I build software from the operating system upwards — reverse proxies, in-memory databases, networking layers, and scalable backend services.
+I build software from the operating system upwards — reverse proxies, in-memory databases, networking layers, GEN AI applications and scalable backend services.
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@ I build software from the operating system upwards — reverse proxies, in-memor
 - ⚙️ I like building infrastructure from scratch instead of relying on black-box libraries
 - 🧠 Interested in how Linux, networking, databases, and distributed systems actually work
 - 🌱 Currently learning **Rust, Distributed Systems & Cloud Infrastructure**
-- 🎯 Open to **Backend, Systems & Infrastructure** roles
+- 🎯 Open to **Fullstack, Backend Systems & Infrastructure** roles
 - 🏆 National Finalist — HCL × GUVI India AI Impact Buildathon 2026 (Top 200 of 15,000+ teams)
 
 ---
