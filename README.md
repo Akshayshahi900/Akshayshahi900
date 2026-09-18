@@ -15,14 +15,14 @@ I enjoy building software across every layer—from systems internals and scalab
 | Project | Tech | Description |
 |---------|------|-------------|
 | **[Lorica](https://github.com/Akshayshahi900/Lorica)** | LLMs, Agentic Workflows, TS, GraphDb, | Autonomous code review agent for GitHub that analyzes pull requests and surfaces actionable issues | 
-| **[🗄️ VoidStore](https://github.com/Akshayshahi900/voidstore)** | C++, epoll, RESP | Redis-inspired in-memory key-value database with TTL expiration and AOF persistence |
-| **[⚡ hy-proxy](https://github.com/Akshayshahi900/hy-proxy)** | C++20, epoll | Nginx-style asynchronous reverse proxy with round-robin load balancing |
-| **[🧵 Thread Pool](https://github.com/Akshayshahi900/Thread_pool)** | C++20 | High-performance work-stealing thread pool with future-based task execution |
-| **[🤖 SaffronAI](https://github.com/Akshayshahi900/SaffronAI)** | Node.js, LLMs | AI-powered scam-call intelligence extraction platform |
-| **[💬 Zing Chat](https://github.com/Akshayshahi900/chat-app)** | Next.js, Socket.IO | Full-stack real-time chat application with authentication |
-| **[💰 Outmoni](https://github.com/Akshayshahi900/outmoni)** | Node.js, MongoDB | Personal finance SaaS with JWT authentication and Docker |
-| **[🏦 Credit Approval System](https://github.com/Akshayshahi900/Credit-Approval-System)** | Python, Django, PostgreSQL, Redis, Celery, Docker | Credit Eligibility and automatic data ingestion |
-| **[⛅ SkyCast](https://github.com/Akshayshahi900/SkyCast-Advanced-Weather-app)** | React, Node.js, Express.js | API Heavy weather tracking application |
+| **[VoidStore](https://github.com/Akshayshahi900/voidstore)** | C++, epoll, RESP | Redis-inspired in-memory key-value database with TTL expiration and AOF persistence |
+| **[hy-proxy](https://github.com/Akshayshahi900/hy-proxy)** | C++20, epoll | Nginx-style asynchronous reverse proxy with round-robin load balancing |
+| **[Thread Pool](https://github.com/Akshayshahi900/Thread_pool)** | C++20 | High-performance work-stealing thread pool with future-based task execution |
+| **[SaffronAI](https://github.com/Akshayshahi900/SaffronAI)** | Node.js, LLMs | AI-powered scam-call intelligence extraction platform |
+| **[Zing Chat](https://github.com/Akshayshahi900/chat-app)** | Next.js, Socket.IO | Full-stack real-time chat application with authentication |
+| **[Outmoni](https://github.com/Akshayshahi900/outmoni)** | Node.js, MongoDB | Personal finance SaaS with JWT authentication and Docker |
+| **[Credit Approval System](https://github.com/Akshayshahi900/Credit-Approval-System)** | Python, Django, PostgreSQL, Redis, Celery, Docker | Credit Eligibility and automatic data ingestion |
+| **[SkyCast](https://github.com/Akshayshahi900/SkyCast-Advanced-Weather-app)** | React, Node.js, Express.js | API Heavy weather tracking application |
 
 
 ---
