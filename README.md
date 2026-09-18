@@ -14,6 +14,7 @@ I enjoy building software across every layer—from systems internals and scalab
 
 | Project | Tech | Description |
 |---------|------|-------------|
+| **[Lorica](https://github.com/Akshayshahi900/Lorica)** | LLMs, Agentic Workflows, TS, GraphDb, | Autonomous code review agent for GitHub that analyzes pull requests and surfaces actionable issues | 
 | **[🗄️ VoidStore](https://github.com/Akshayshahi900/voidstore)** | C++, epoll, RESP | Redis-inspired in-memory key-value database with TTL expiration and AOF persistence |
 | **[⚡ hy-proxy](https://github.com/Akshayshahi900/hy-proxy)** | C++20, epoll | Nginx-style asynchronous reverse proxy with round-robin load balancing |
 | **[🧵 Thread Pool](https://github.com/Akshayshahi900/Thread_pool)** | C++20 | High-performance work-stealing thread pool with future-based task execution |
